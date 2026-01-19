@@ -180,13 +180,16 @@ Setup MySQL in LINUX
 
 sudo apt install mysql-server -y
 
-sudo mysql -u root -p
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Aditya';
 
 FLUSH PRIVILEGES;
 
 EXIT;
+
+
+sudo mysql -u root -p
+
 
 --Create the database if not already exists
 
